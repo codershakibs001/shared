@@ -64,7 +64,7 @@ class LoginPage extends StatelessWidget {
               MaterialPageRoute(builder: (context) => DashboardPage()),
             );
           },
-          child: Text("Login"),
+          child: Text("Login",style: TextStyle(),),
         ),
       ),
     );
