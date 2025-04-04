@@ -3,7 +3,6 @@ import 'package:shared/features/auth/login.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class DashboardPage extends StatelessWidget {
-
   const DashboardPage({super.key});
 
   @override
@@ -20,7 +19,10 @@ class DashboardPage extends StatelessWidget {
               MaterialPageRoute(builder: (context) => LoginPage()),
             );
           },
-          child: Text("Logout",style: TextStyle(fontWeight: FontWeight.normal),),
+          child: Text(
+            "Logout",
+            style: TextStyle(fontWeight: FontWeight.normal),
+          ),
         ),
       ),
     );
